@@ -7,4 +7,8 @@ class Card
     @suite = suite
   end
 
+  def to_s
+    "#{rank} #{suite}"
+  end
+
 end
