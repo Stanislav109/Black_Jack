@@ -6,6 +6,10 @@ class Bank
     @deposit = deposit
   end
 
+  def add_money(cash)
+    self.deposit += cash
+  end
+
   def bet(cash)
     self.deposit -= cash
   end
