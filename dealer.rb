@@ -4,7 +4,7 @@ class Dealer
 
   def initialize(cards)
     @cards_deck = cards
-    @money = money
+    @money = Bank.new
     @scores = count_scores(cards)
   end
 
