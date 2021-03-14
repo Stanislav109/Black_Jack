@@ -1,5 +1,4 @@
 class Bank
-
   attr_accessor :deposit
 
   def initialize(deposit = 100)

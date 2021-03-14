@@ -1,0 +1,44 @@
+Metrics/ClassLength:
+  Max: 200
+
+Metrics/LineLength:
+  Max: 150
+
+Metrics/MethodLength:
+  Max: 50
+
+Metrics/AbcSize:
+  Max: 65
+
+Metrics/CyclomaticComplexity:
+  Max: 15
+
+Metrics/BlockLength:
+  Max: 50
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+Style/IdenticalConditionalBranches:
+  Exclude:
+    - 'user_interface.rb'
+
+Style/NumericPredicate:
+  Exclude:
+    - 'user_interface.rb'
+    - 'dealer.rb'
+
+Style/GuardClause:
+  Exclude:
+    - 'game.rb'
+
+Style/Documentation:
+  Exclude:
+    - 'hand.rb'
+    - 'dealer.rb'
+    - 'card.rb'
+    - 'deck.rb'
+    - 'bank.rb'
+    - 'user_interface.rb'
+    - 'player.rb'
+    - 'game.rb'
